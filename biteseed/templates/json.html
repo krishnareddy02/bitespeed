@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h2>
+    please insert the data in the format given below
+  </h2>
+  <h2>
+   <h2> [</h2>
+  <h2>{
+	                 
+  "phoneNumber"       :   "919191",
+  "email"             :   "george@hillvalley.edu",
+  "linkedId"          :   11,
+  "linkPrecedence"     :  "primary",
+  "createdAt"          :  "2023-04-11 00:00:00.374+00"  ,            
+  "updatedAt"          :  "2023-04-11 00:00:00.374+00"  ,            
+  "deletedAt"          :  "null"
+},</h2>
+<h2>{
+	                
+  "phoneNumber"         : "717171",
+  "email"               : "biffsucks@hillvalley.edu",
+  "linkedId"            : 2,
+  "linkPrecedence"      : "primary",
+  "createdAt"           : "2023-04-21 05:30:00.11+00"  ,            
+  "updatedAt"           : "2023-04-21 05:30:00.11+00"  ,            
+  "deletedAt"           : "null"
+}
+<h2>]</h2>
+  </h2>
+    <form action="json1" method="POST">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">json Data</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3" required></textarea>
+      </div>
+        <h1>the below field fill atleast one</h1>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="exampleFormControlInput1">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput2">phone number</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" name="exampleFormControlInput2">
+          </div>
+          <button type="submit">submit</button>
+      </form>
+</body>
+</html>
